@@ -8,7 +8,7 @@ from scipy.signal import argrelextrema
 import getwave as gw
 from scipy.interpolate import interp1d
 from scipy.optimize import curve_fit
-import ROOT  
+import ROOT   
 import array
 import gc
 import pandas as pd

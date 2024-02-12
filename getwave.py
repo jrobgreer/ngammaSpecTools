@@ -20,7 +20,7 @@ def get_pulse_collection(file, digitizer_family = gdw.DigitizerFamily.X725):
         #plt.plot(8e-9*(np.linspace(0, 1030*4, 1030)+event.header.trigger_time_tag)/1e-6, -1*(-16384+(event.record)+0.1*16384))
         #times.append(8e-9*event.header.trigger_time_tag)
 
-    #plt.show() 
+    #plt.show()  
     return pulse_collection, pulse_timestamps
 
 
